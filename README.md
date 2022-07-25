@@ -1,1 +1,1 @@
-# my-react-template
+# create your own react project template
