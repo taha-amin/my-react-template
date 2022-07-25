@@ -15,7 +15,7 @@ export default function Menu() {
   };
 
   return (
-    <button className={className} onclick={handleClick}>
+    <button className={className} onClick={handleClick}>
       <div className={styles.MenuContainer}>
         <Navigation />
       </div>
