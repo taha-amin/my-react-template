@@ -9,7 +9,7 @@ export default function Header() {
         <Menu />
       </div>
 
-      <h1>Mohamed Amin's App</h1>
+      <h1>My React Template</h1>
 
       <div className={styles.NavigationContainer}>
         <Navigation />
