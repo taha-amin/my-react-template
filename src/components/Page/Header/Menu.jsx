@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Navigation from './Navigation.jsx';
-import styles from './Header.css';
+import styles from './Menu.css';
 import classNames from 'classnames';
 
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
   const className = classNames(styles.Menu, {
-    [styles.isOpen]: isOpen,
+    [styles.Open]: isOpen,
   });
 
   const handleClick = () => {
