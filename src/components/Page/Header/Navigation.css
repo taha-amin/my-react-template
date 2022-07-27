@@ -10,9 +10,10 @@
 
   a {
     padding: 3px 7px;
-    color: initial;
+    color: var(--background-color);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.9em;
+    /* font-family: var(--secondary-font); */
   }
 }
