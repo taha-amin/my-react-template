@@ -1,5 +1,5 @@
 .Home {
-  padding: 20px;
+  padding: var(--padding);
 
   h1 {
     font-size: 1.5rem;

@@ -3,6 +3,7 @@
   /* --secondary-font: times new roman, serif; */
   --header-color: #65743a;
   --background-color: #f8fff4;
+  --padding: 20px;
 }
 
 body {
