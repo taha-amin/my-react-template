@@ -1,8 +1,13 @@
 :root {
   --primary-font: 'Noto Sans', sans-serif;
   /* --secondary-font: times new roman, serif; */
+
+  /* green color */
   --header-color: #65743a;
+
+  /* white color */
   --background-color: #f8fff4;
+
   --padding: 20px;
 }
 
