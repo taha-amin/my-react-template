@@ -1,9 +1,13 @@
 :root {
   --primary-font: 'Noto Sans', sans-serif;
+  --header-color: #65743a;
+  --background-color: #f8fff4;
 }
 
 body {
   height: 100vh;
+  background: var(--background-color);
+  font-family: var(--primary-font);
 }
 
 * {
