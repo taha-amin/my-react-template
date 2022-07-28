@@ -5,8 +5,8 @@
 
   .Card {
     padding: 12px;
-    border: 1px solid var(--color-4);
-    background: var(--offset-color);
+    border: 1px solid var(--header-color);
+    background: var(--background-color);
 
     display: grid;
     grid-template-rows: 100px 30px 10px;
