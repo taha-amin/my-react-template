@@ -1,7 +1,16 @@
 .Home {
   padding: var(--padding);
 
+  color: var(--background-color);
+
+  background-image: url('/Users/mohamedamin/Desktop/alchemy/Module-4/Week-1/my-react-template/public/pokemon-center.jpeg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   h1 {
+    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 20px;
   }
