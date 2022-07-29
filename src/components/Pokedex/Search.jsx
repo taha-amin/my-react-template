@@ -48,7 +48,7 @@ export default function Search() {
         ))}
       </SelectControl>
 
-      <FormButton>🔍</FormButton>
+      <FormButton>Search</FormButton>
     </form>
   );
 }

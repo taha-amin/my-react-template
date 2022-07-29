@@ -1,5 +1,5 @@
 .Search {
-  display: grid;
+  /* display: grid; */
   grid-template-columns:
     repeat(2, minmax(125px, 175px))
     50px;
