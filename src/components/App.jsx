@@ -9,6 +9,7 @@ import Layout from './Page/Layout';
 import Home from './Home/Home';
 import Pokedex from './Pokedex/Pokedex';
 import About from './About/About';
+import FuzzyBunny from './FuzzyBunny/FunnyBunny';
 import FuzzyBunnyProvider from '../state/context/FuzzyBunnyContext';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="pokedex" element={<Pokedex />} />
             <Route path="about" element={<About />} />
+            <Route path="fuzzy-bunny" element={<FuzzyBunny />}></Route>
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
         </Routes>
