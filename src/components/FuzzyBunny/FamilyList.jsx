@@ -61,7 +61,7 @@ function Family({ family }) {
       ) : (
         <h2 onDoubleClick={handleDoubleClick}>{family.name}</h2>
       )}
-      <button onClick={handleRemove}>ⓧ</button>
+      <button onClick={handleRemove}>❌</button>
     </li>
   );
 }

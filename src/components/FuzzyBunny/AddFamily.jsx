@@ -17,13 +17,14 @@ export default function AddFamily() {
   return (
     <form className={styles.AddFamily} onSubmit={handleSubmit}>
       <InputControl
-        label="add a family"
+        label="Add a Family"
         name="pokemon"
+        placeholder="Enter your family"
         value={name}
         onChange={handleChange}
       />
 
-      <FormButton>🔍</FormButton>
+      <FormButton>Add Family</FormButton>
     </form>
   );
 }
