@@ -1,18 +1,25 @@
 import Menu from './Menu.jsx';
-import Navigation from './Navigation.jsx';
+import Navigation from '../Navigation/Navigation';
 import styles from './Header.css';
+
+const primary = [
+  { to: '/', label: 'Home' },
+  { to: 'pokedex', label: 'Pokedex' },
+  { to: 'fuzzy-bunny', label: 'Fuzzy Bunny' },
+  { to: 'about', label: 'About' },
+];
 
 export default function Header() {
   return (
     <header className={styles.Header}>
       <div className={styles.MenuContainer}>
-        <Menu />
+        <Menu navigation={primary} />
       </div>
 
       <h1>My React Template</h1>
 
       <div className={styles.NavigationContainer}>
-        <Navigation />
+        <Navigation navigation={primary} />
       </div>
 
       <div>User</div>

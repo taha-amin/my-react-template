@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Navigation from './Navigation.jsx';
+import Navigation from '../Navigation/Navigation';
 import styles from './Menu.css';
 import classNames from 'classnames';
 
