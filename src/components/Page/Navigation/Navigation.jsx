@@ -5,7 +5,6 @@ export default function Navigation({ navigation }) {
   // if (!navigation) {
   //   return null;
   // }
-  console.log(navigation);
 
   return (
     <nav className={styles.Navigation}>
