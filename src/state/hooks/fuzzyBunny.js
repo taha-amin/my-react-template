@@ -5,7 +5,7 @@ import {
   removeFamily,
   addFamily,
   updateFamily,
-} from '../services/fuzzy-bunny-service.js';
+} from '../services/fuzzyBunnyService.js';
 import { showSuccess, showError } from '../services/toaster.js';
 
 export function useFamilies() {
