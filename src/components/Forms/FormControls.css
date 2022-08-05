@@ -1,22 +1,19 @@
 .FormControl {
   display: block;
 
-  &:not(:first-child) {
-    margin-top: var(--padding);
-  }
-
-  &:not(:last-child) {
-    margin-bottom: var(--padding);
-  }
-
-  span {
+  .Label {
     display: block;
-    font-size: 0.8em;
-    margin-bottom: 1px;
-    font: var(--primary-font);
+    margin-bottom: 7px;
+    color: var(--caption-color);
   }
 
-  input:not([type='checkbox']),
+  .Options {
+    display: grid;
+    row-gap: 4px;
+    column-gap: 10px;
+  }
+
+  input:not([type='checkbox']):not([type='radio']),
   select,
   textarea {
     display: block;
@@ -34,7 +31,8 @@
     margin-top: 4px;
   }
 
-  input[type='checkbox'] {
+  input[type='checkbox'],
+  input[type='radio'] {
     width: 18px;
     height: 18px;
     margin: 0;
@@ -47,10 +45,15 @@
 }
 
 .FormButton {
-  padding: 10px 15px;
-  background: var(--header-color);
-  color: var(--background-color);
+  padding: 5px 10px;
+  height: 40px;
+  background: var(--button-color);
+  border: 1px solid var(--header-color);
   cursor: pointer;
+
+  &.Icon {
+    font-size: 1.5em;
+  }
 }
 
 .Fieldset {
