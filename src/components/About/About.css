@@ -1,8 +1,12 @@
 .About {
   padding: var(--padding);
 
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+  form {
+    background: var(--offset-color);
+    padding: 30px 40px;
+    width: 500px;
+
+    display: grid;
+    row-gap: 25px;
   }
 }
