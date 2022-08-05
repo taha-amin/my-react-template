@@ -16,6 +16,10 @@ export async function signOut() {
   return await client.auth.signOut();
 }
 
+export function onAuthChange(handleAuthChange) {
+  return client.auth.onAuthStateChange(handleAuthChange);
+}
+
 const PROFILE = 'profile';
 
 export function getLocalProfile() {
@@ -32,20 +36,22 @@ export function saveLocalProfile(profile) {
   localStorage.setItem(PROFILE, JSON.stringify(profile));
 }
 
+export function removeLocalProfile() {
+  localStorage.removeItem(PROFILE);
+}
+
 export async function getProfile() {
   const user = getUser();
 
   return await client.from('profiles').select().eq('id', user.id).single();
 }
 
-export async function updateProfile(profile) {
+export async function upsertProfile(profile) {
   const response = await client
     .from('profiles')
     .upsert(profile)
     .eq('id', profile.id)
     .single();
-
-  saveLocalProfile(response.data);
   return response;
 }
 

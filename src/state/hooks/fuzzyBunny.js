@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { FuzzyBunnyContext } from '../context/FuzzyBunnyContext.js';
+import { FuzzyBunnyContext } from '../context/FuzzyBunnyContext.jsx';
 import {
   getFamiliesWithBunnies,
   removeFamily,
