@@ -11,11 +11,6 @@
   gap: 20px;
   align-items: center;
 
-  /* h1 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  } */
-
   .NavigationContainer {
     display: none;
     justify-self: end;
@@ -23,7 +18,7 @@
 
   @media (min-width: 750px) {
     height: 50px;
-    padding-left: var(--padding);
+    padding: var(--padding);
 
     .MenuContainer {
       display: none;
