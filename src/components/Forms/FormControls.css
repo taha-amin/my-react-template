@@ -4,7 +4,7 @@
   .Label {
     display: block;
     margin-bottom: 7px;
-    color: var(--caption-color);
+    color: var(--background-color);
   }
 
   .Options {
@@ -47,8 +47,8 @@
 .FormButton {
   padding: 5px 10px;
   height: 40px;
-  background: var(--button-color);
-  border: 1px solid var(--header-color);
+  background: var(--background-color);
+  /* border: 1px solid var(--background-color); */
   cursor: pointer;
 
   &.Icon {

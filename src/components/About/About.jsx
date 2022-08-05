@@ -32,13 +32,13 @@ export default function About() {
           required
         />
 
-        <SelectControl label="type">
-          <option>A</option>
-          <option>B</option>
-          <option>C</option>
+        <SelectControl label="Favorite Foods?">
+          <option>Burgers</option>
+          <option>Pizza</option>
+          <option>Sushi</option>
         </SelectControl>
 
-        <CheckboxControl label="Easy Mode?" text="Yes" />
+        <CheckboxControl label="Are you Human?" text="Yes" />
 
         <OptionGroupControl label="Check all that apply" size="125px">
           <CheckboxOption text="Monday" />
@@ -50,11 +50,11 @@ export default function About() {
           <CheckboxOption text="Sunday" />
         </OptionGroupControl>
 
-        <OptionGroupControl name="pet" label="Favorite Pet" size="95px">
-          <RadioOption value={1} text="dog" />
-          <RadioOption value={2} text="cat" />
-          <RadioOption value={3} text="bird" />
-          <RadioOption value={4} text="fish" />
+        <OptionGroupControl name="pet" label="Favorite Animal" size="95px">
+          <RadioOption value={1} text="lion" />
+          <RadioOption value={2} text="tiger" />
+          <RadioOption value={3} text="elephant" />
+          <RadioOption value={4} text="hawk" />
           <RadioOption value={5} text="lizard" />
           <RadioOption value={6} text="snake" />
           <RadioOption value={7} text="llama" />
